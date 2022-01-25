@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Korotaev_shop</title>
+    <link rel="stylesheet" href="styles/stile.css">
+</head> 
+<body>
+    <header class = "header"> 
+        <div class="container">
+            <nav class="main-menu"> 
+                    <div class="novig"> 
+                        <a  href="#">Главная</a>
+                        <a  href="#">Информация</a>
+                        <a  href="#">Новости</a>
+                        <a  href="#">Главная</a>
+                        <a  href="#">Прайс-лист</a>
+                        <a  href="#">Магазины</a>
+                        <a  href="#">Контакты</a>
+                    </div>
+                    <div class="profile">
+                        <a  href="../Лаб_2/auto.html">Вход</a>
+                    </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+
+            <h1> Категории товаров</h1>
+
+            <div class="flex-wrapper">
+                <aside class="sidebar">
+                    <form action="#">
+                        <section class = "proiz">
+                            <h1>Производители</h1>
+                            <div class="form-group">
+                                <input type="checkbox" name="manufacture" id="manufacture1">
+                                <label for="manufacture">Apple</label>
+                            </div>
+                            <div class="form-group">
+                                <input type="checkbox" name="manufacture" id="manufacture2">
+                                <label for="manufacture">Asus </label>
+                            </div>
+                            <div class="form-group">
+                                <input type="checkbox" name="manufacture" id="manufacture3">
+                                <label for="manufacture">Xiaomi </label>
+                            </div>
+                            <div class="form-group">
+                                <input type="checkbox" name="manufacture" id="manufacture4">
+                                <label for="manufacture">HP </label>
+                            </div>
+                            <div class="form-group">
+                                <input type="checkbox" name="manufacture" id="manufacture5">
+                                <label for="manufacture">Honor </label>
+                            </div>
+                            
+                            <h1>Группа товаров</h1>
+                            <div class="form-group">
+                                <input type="radio" name="group" id="group1">
+                                <label for="group1">Телефоны</label>
+                            </div>
+                            <div class="form-group">
+                                <input type="radio" name="group" id="group2">
+                                <label for="group2">Ноутбуки</label>
+                            </div>
+                            <div class="form-group">
+                                <input type="radio" name="group" id="group3">
+                                <label for="group3">Планшеты</label>
+                            </div>
+                            <div class="form-group">
+                                <input type="radio" name="group" id="group4">
+                                <label for="group4">ПК</label>
+                            </div>
+                            <div class="form-group">
+                                <input type="radio" name="group" id="group5">
+                                <label for="group5">Наушники</label>
+                            </div>
+                        
+                            
+                        </section>
+                    </form>
+
+                    </aside>
+                        <div>
+                            <section class="goods-list">
+                                <div class="goods">
+                                    <img class ="good-img" src="img/iphone.jpg" alt="">
+                                <div class="good-decription">
+                                    <p>This is iphone 12 Pro Max, it is revolytiony, Jonny</p>
+                                </div>
+                                <div class="price_and_buy">
+                                    <span class="price">69900 рублей</span>  <a class = "buy" href="#"> Заказать</a>
+                                    </div>
+                                </div>
+
+                                <div class="goods">
+                                    <img class ="good-img" src="img/ipad.jpg" alt="">
+                                <div class="good-decription">
+                                    <p>Ipad нового покаления, цена указана за миниимальную комплектацию</p>
+                                </div>
+                                <div class="price_and_buy">
+                                    <span class="price">30000 рублей</span>  <a class = "buy" href="#"> Заказать</a>
+                                    </div>
+                                </div>
+
+                                <div class="goods">
+                                    <img class ="good-img" src="img/airpods.jpg" alt="">
+                                <div class="good-decription">
+                                    <p>Airpods pro беспроводный наушники с искуственным шумоподавлением</p>
+                                </div>
+                                <div class="price_and_buy">
+                                    <span class="price">19990 рублей</span>  <a class = "buy" href="#"> Заказать</a>
+                                    </div>
+                                </div>
+
+                                <div class="goods">
+                                    <img class ="good-img" src="img/mac.jpg" alt="">
+                                <div class="good-decription">
+                                    <p>MacBook Air быстрый ноутбук на новом процессоре от Apple</p>
+                                </div>
+                                <div class="price_and_buy">
+                                    <span class="price">80000 рублей</span>  <a class = "buy" href="#"> Заказать</a>
+                                    </div>
+                                </div>
+
+                                <div class="goods">
+                                    <img class ="good-img" src="img/poco.jpg" alt="">
+                                <div class="good-decription">
+                                    <p>Xiaomi POCO M3 смартфон, который топ за свои деньги </p>
+                                </div>
+                                <div class="price_and_buy">
+                                    <span class="price">19900 рублей</span>  <a class = "buy" href="#"> Заказать</a>
+                                    </div>
+                                </div>
+
+                                <div class="goods">
+                                    <img class ="good-img" src="img/apple watch s6.jpg" alt="">
+                                <div class="good-decription">
+                                    <p>Apple watch series 6 2021 совместимость c IOS</p>
+                                </div>
+                                <div class="price_and_buy">
+                                    <span class="price">23990 рублей</span>  <a class = "buy" href="#"> Заказать</a>
+                                    </div>
+                                </div>
+
+                            
+                                <div class="goods">
+                                    <img class ="good-img" src="img/Honor magickbook.png" alt="">
+                                <div class="good-decription">
+                                    <p>HONOR MagicBook 14 AMD Ryzen 5 3500U 256 ГБ</p>
+                                </div>
+                                <div class="price_and_buy">
+                                    <span class="price">49990 рублей</span>  <a class = "buy" href="#"> Заказать</a>
+                                    </div>
+                                </div>
+
+                                <div class="goods">
+                                    <img class ="good-img" src="img/Huawei P30.jpg" alt="">
+                                <div class="good-decription">
+                                    <p>Оперативная память (RAM): 12 ГБ Встроенная память: 1024Gb </p>
+                                </div>
+                                <div class="price_and_buy">
+                                    <span class="price">67890 рублей</span>  <a class = "buy" href="#"> Заказать</a>
+                                    </div>
+                                </div>
+
+                                <div class="goods">
+                                    <img class ="good-img" src="img/samsung S20.jpg" alt="">
+                                <div class="good-decription">
+                                    <p>Samsung S20 Оперативная память (RAM): 12 ГБ Процессор: Samsung Exynos 990</p>
+                                </div>
+                                <div class="price_and_buy">
+                                    <span class="price">23990 рублей</span>  <a class = "buy" href="#"> Заказать</a>
+                                    </div>
+                                </div>
+
+                            </section>
+                
+                            <div class="pagination"> 
+                                <a class= "btn" href="#"> 1 </a>
+                                <a class= "btn act" href="#"> 2 </a>
+                                <a class= "btn" href ="#"> 3 </a>
+                                <a class= "btn" href="#"> 4 </a>
+                            </div>
+                        </div>
+                </div>
+         </div>
+
+
+    </main>
+
+</body> 
+</html>
